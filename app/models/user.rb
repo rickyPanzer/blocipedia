@@ -16,6 +16,7 @@
 #  name                   :string
 #  created_at             :datetime
 #  updated_at             :datetime
+#  role                   :string
 #
 # Indexes
 #
@@ -28,4 +29,11 @@ class User < ActiveRecord::Base
   # :confirmable, :lockable, :timeoutable and :omniauthable
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable
+
+  after_initialize :init
+
+
+  def init
+    self.role = "standard"
+  end
 end

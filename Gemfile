@@ -14,6 +14,7 @@ gem 'devise'
 gem 'bootstrap-sass'
 gem 'simple_form'
 gem 'annotate'
+gem 'pundit'
 
 group :development, :test do
   gem 'byebug'
