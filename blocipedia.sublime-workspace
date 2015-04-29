@@ -1,0 +1,548 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ha",
+				"have_content"
+			],
+			[
+				"click",
+				"click_button"
+			],
+			[
+				"joaoca",
+				"joaocarlos@example"
+			],
+			[
+				"let",
+				"let	let(:object) { }"
+			],
+			[
+				"joao",
+				"joaocarlos@example"
+			],
+			[
+				"li",
+				"lia	link_to (action)"
+			],
+			[
+				"fil",
+				"fill	fill_in \"id_or_name_or_label\", :with => \"value\""
+			],
+			[
+				"vi",
+				"visit"
+			],
+			[
+				"pa",
+				"patch"
+			],
+			[
+				"attri",
+				"attributes_for(:user"
+			],
+			[
+				"attr",
+				"attributes_for(:user"
+			],
+			[
+				"attribu",
+				"attributes_for"
+			],
+			[
+				"ren",
+				"render_template"
+			],
+			[
+				"john",
+				"john@example"
+			],
+			[
+				"upcase",
+				"upcase〔function〕"
+			],
+			[
+				"file_usab",
+				"file_usable?〔function〕"
+			],
+			[
+				"F",
+				"File	File.open(\"..\") { |file| .. }"
+			],
+			[
+				"rea",
+				"readable?〔function〕"
+			],
+			[
+				"file",
+				"filepath"
+			],
+			[
+				"if",
+				"ife	if … else … end"
+			],
+			[
+				"bir",
+				"birthday〔variable〕"
+			],
+			[
+				"act",
+				"action_mailer"
+			],
+			[
+				"ac",
+				"action_mailer"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"last_filter": "syrs",
+		"selected_items":
+		[
+			[
+				"syrs",
+				"Set Syntax: RSpec"
+			],
+			[
+				"p",
+				"Package Control: Install Package"
+			],
+			[
+				"pi",
+				"Package Control: Install Package"
+			],
+			[
+				"rails",
+				"Set Syntax: HTML (Rails)"
+			],
+			[
+				"er",
+				"Set Syntax: ERB"
+			],
+			[
+				"rea",
+				"ReadmePlease"
+			],
+			[
+				"re",
+				"ReadmePlease"
+			],
+			[
+				"read",
+				"ReadmePlease"
+			],
+			[
+				"git pus",
+				"Git: Push"
+			],
+			[
+				"git co",
+				"Git: Commit"
+			],
+			[
+				"git add",
+				"Git: Add..."
+			]
+		],
+		"width": 754.0
+	},
+	"console":
+	{
+		"height": 178.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/hugocbp/Code/rails_apps/blocipedia"
+	],
+	"file_history":
+	[
+		"/Users/hugocbp/Code/rails_apps/capstone-rails/Gemfile",
+		"/Users/hugocbp/Code/rails_apps/capstone-rails/spec/features/sign_up_users_spec.rb",
+		"/Users/hugocbp/Code/rails_apps/capstone-rails/config/locales/devise.en.yml",
+		"/Users/hugocbp/Code/rails_apps/capstone-rails/app/views/pages/index.html.erb",
+		"/Users/hugocbp/Code/rails_apps/capstone-rails/app/views/layouts/application.html.erb",
+		"/Users/hugocbp/Code/rails_apps/capstone-rails/spec/models/user_spec.rb",
+		"/Users/hugocbp/Code/rails_apps/capstone-rails/app/models/user.rb",
+		"/Users/hugocbp/Code/rails_apps/capstone-rails/.gitignore",
+		"/Users/hugocbp/Code/rails_apps/capstone-rails/spec/factories/users.rb",
+		"/Users/hugocbp/Code/rails_apps/capstone-rails/app/views/devise/registrations/new.html.erb",
+		"/Users/hugocbp/Code/rails_apps/capstone-rails/app/views/devise/sessions/new.html.erb",
+		"/Users/hugocbp/Code/rails_apps/capstone-rails/app/assets/stylesheets/application.css",
+		"/Users/hugocbp/Code/rails_apps/capstone-rails/app/assets/stylesheets/foundation_and_overrides.scss",
+		"/Users/hugocbp/Code/rails_apps/capstone-rails/config/environments/development.rb",
+		"/Users/hugocbp/Code/rails_apps/capstone-rails/config/environments/test.rb",
+		"/Users/hugocbp/Code/rails_apps/capstone-rails/config/routes.rb",
+		"/Users/hugocbp/Code/rails_apps/capstone-rails/db/migrate/20150426195214_devise_create_users.rb",
+		"/Users/hugocbp/Code/rails_apps/capstone-rails/.rspec",
+		"/Users/hugocbp/Code/rails_apps/capstone-rails/spec/rails_helper.rb",
+		"/Users/hugocbp/Code/rails_apps/capstone-rails/spec/features/sign_up_user.rb",
+		"/Users/hugocbp/Code/rails_apps/capstone-rails/spec/support/factory_girl.rb",
+		"/Users/hugocbp/Code/rails_apps/capstone-caseipassei/app/controllers/ads_controller.rb",
+		"/Users/hugocbp/Code/rails_apps/capstone-caseipassei/app/views/ads/new.html.erb",
+		"/Users/hugocbp/Code/rails_apps/capstone-caseipassei/app/views/ads/index.html.erb",
+		"/Users/hugocbp/Code/rails_apps/capstone-caseipassei/app/views/layouts/_header.html.erb",
+		"/Users/hugocbp/Code/rails_apps/capstone-caseipassei/spec/features/create_ad_spec.rb",
+		"/Users/hugocbp/Code/rails_apps/capstone-caseipassei/app/views/users/index.html.erb",
+		"/Users/hugocbp/Code/rails_apps/capstone-caseipassei/db/migrate/20150422174851_create_ads.rb",
+		"/Users/hugocbp/Code/rails_apps/capstone-caseipassei/app/controllers/users_controller.rb",
+		"/Users/hugocbp/Code/flix/spec/features/delete_user_spec.rb",
+		"/Users/hugocbp/Code/flix/spec/features/list_users_spec.rb",
+		"/Users/hugocbp/Code/flix/spec/features/show_user_spec.rb",
+		"/Users/hugocbp/Code/flix/spec/features/edit_user_spec.rb",
+		"/Users/hugocbp/Code/flix/spec/controllers/users_controller_spec.rb",
+		"/Users/hugocbp/Code/flix/app/controllers/application_controller.rb",
+		"/Users/hugocbp/Code/flix/app/views/users/show.html.erb",
+		"/Users/hugocbp/Code/flix/app/controllers/users_controller.rb",
+		"/Users/hugocbp/Code/flix/spec/features/create_user_spec.rb",
+		"/Users/hugocbp/Code/flix/app/views/layouts/_header.html.erb",
+		"/Users/hugocbp/Code/flix/spec/features/sign_out_spec.rb",
+		"/Users/hugocbp/Code/flix/app/helpers/application_helper.rb",
+		"/Users/hugocbp/Code/flix/spec/features/sign_in_spec.rb",
+		"/Users/hugocbp/Code/flix/app/controllers/sessions_controller.rb",
+		"/Users/hugocbp/Downloads/_bootswatch.scss",
+		"/Users/hugocbp/Downloads/_variables.scss",
+		"/Users/hugocbp/Code/flix/spec/support/authentication.rb",
+		"/Users/hugocbp/Code/capstone-caseipassei/config/environments/production.rb",
+		"/Users/hugocbp/Code/capstone-caseipassei/Gemfile",
+		"/Users/hugocbp/Code/capstone-caseipassei/config/routes.rb",
+		"/Users/hugocbp/Code/capstone-caseipassei/app/views/layouts/application.html.erb",
+		"/Users/hugocbp/Code/caseipassei-landing-page/css/styles.css",
+		"/Users/hugocbp/Code/capstone-caseipassei/config/environments/test.rb",
+		"/Users/hugocbp/Code/flix/app/models/user.rb",
+		"/Users/hugocbp/Code/flix/app/views/users/edit.html.erb",
+		"/Users/hugocbp/Code/flix/spec/support/attributes.rb",
+		"/Users/hugocbp/Code/flix/app/views/users/new.html.erb",
+		"/Users/hugocbp/Code/flix/app/views/users/_form.html.erb",
+		"/Users/hugocbp/Code/flix/config/routes.rb",
+		"/Users/hugocbp/Code/flix/app/views/layouts/application.html.erb",
+		"/Users/hugocbp/Code/flix/app/views/users/index.html.erb",
+		"/Users/hugocbp/Code/flix/Gemfile",
+		"/Users/hugocbp/Code/flix/app/assets/stylesheets/users.css.scss",
+		"/Users/hugocbp/Code/flix/app/assets/stylesheets/application.css",
+		"/Users/hugocbp/Code/blocitoff/spec/rails_helper.rb",
+		"/Users/hugocbp/Code/blocitoff/Gemfile",
+		"/Users/hugocbp/Code/blocitoff/.rspec",
+		"/Users/hugocbp/Code/blocitoff/spec/support/factory_girl.rb",
+		"/Users/hugocbp/Code/capstone-caseipassei/.rspec",
+		"/Users/hugocbp/Code/capstone-caseipassei/Guardfile",
+		"/Users/hugocbp/Code/capstone-caseipassei/spec/rails_helper.rb",
+		"/Users/hugocbp/Code/capstone-caseipassei/spec/support/factory_girl.rb",
+		"/Users/hugocbp/Code/bloccit-authorization/app/controllers/posts_controller.rb",
+		"/Users/hugocbp/Code/bloccit-authorization/app/policies/post_policy.rb",
+		"/Users/hugocbp/Code/bloccit-authorization/app/policies/application_policy.rb",
+		"/Users/hugocbp/Code/bloccit/app/models/topic.rb",
+		"/Users/hugocbp/Code/bloccit/spec/models/topic_spec.rb",
+		"/Users/hugocbp/Code/bloccit-comments/app/policies/comment_policy.rb",
+		"/Users/hugocbp/Code/bloccit/lib/paginate.rb",
+		"/Users/hugocbp/Code/bloccit/db/seeds.rb",
+		"/Users/hugocbp/Code/bloccit-authorization/db/seeds.rb",
+		"/Users/hugocbp/Code/bloccit/app/models/post.rb",
+		"/Users/hugocbp/Code/bloccit/app/models/user.rb",
+		"/Users/hugocbp/Code/bloccit/db/schema.rb",
+		"/Users/hugocbp/Code/bloccit/db/development.sqlite3",
+		"/Users/hugocbp/Code/bloccit-comments/app/views/posts/show.html.erb",
+		"/Users/hugocbp/Code/bloccit-comments/app/controllers/posts_controller.rb",
+		"/Users/hugocbp/Code/bloccit-comments/app/controllers/comments_controller.rb",
+		"/Users/hugocbp/Desktop/bloccit/app/models/topic.rb",
+		"/Users/hugocbp/Code/bloccit-authorization/Gemfile",
+		"/Users/hugocbp/Code/caseipassei-tdd/app/models/user.rb",
+		"/Users/hugocbp/Code/caseipassei-tdd/spec/factories/user.rb",
+		"/Users/hugocbp/Code/caseipassei-tdd/spec/models/user_spec.rb",
+		"/Users/hugocbp/Code/caseipassei-tdd/Gemfile",
+		"/Users/hugocbp/Code/caseipassei-tdd/spec/rails_helper.rb",
+		"/Users/hugocbp/Code/caseipassei-tdd/config/environments/development.rb",
+		"/Users/hugocbp/Code/caseipassei-tdd/config/environments/test.rb",
+		"/Users/hugocbp/Code/caseipassei-tdd/config/routes.rb",
+		"/Users/hugocbp/Code/caseipassei-tdd/app/views/layouts/application.html.erb",
+		"/Users/hugocbp/Code/caseipassei-tdd/db/migrate/20150412160601_devise_create_users.rb",
+		"/Users/hugocbp/Code/caseipassei-tdd/app/assets/stylesheets/application.scss",
+		"/Users/hugocbp/Code/caseipassei-tdd/app/assets/javascripts/application.js",
+		"/Users/hugocbp/Code/caseipassei-tdd/.rspec",
+		"/Users/hugocbp/Code/caseipassei-tdd/spec/support/factory_girl.rb",
+		"/Users/hugocbp/Code/caseipassei-bdd/db/migrate/20150412111618_create_products.rb",
+		"/Users/hugocbp/Code/caseipassei-bdd/app/views/pages/home.html.erb",
+		"/Users/hugocbp/Code/caseipassei-bdd/spec/features/products_behavior_spec.rb",
+		"/Users/hugocbp/Code/caseipassei-bdd/Gemfile",
+		"/Users/hugocbp/Code/caseipassei-bdd/app/assets/stylesheets/application.scss",
+		"/Users/hugocbp/Code/caseipassei-bdd/app/assets/javascripts/application.js",
+		"/Users/hugocbp/Code/caseipassei-bdd/config/environments/development.rb",
+		"/Users/hugocbp/Code/caseipassei-bdd/config/routes.rb",
+		"/Users/hugocbp/Code/caseipassei-bdd/spec/features/pages_spec.rb",
+		"/Users/hugocbp/Code/caseipassei-bdd/config/environments/test.rb",
+		"/Users/hugocbp/Code/caseipassei-bdd/app/views/devise/passwords/new.html.erb",
+		"/Users/hugocbp/Code/caseipassei-bdd/spec/factories/users.rb",
+		"/Users/hugocbp/Code/caseipassei-bdd/app/views/devise/sessions/new.html.erb",
+		"/Users/hugocbp/Code/caseipassei-bdd/app/views/devise/shared/_links.html.erb",
+		"/Users/hugocbp/Code/caseipassei-bdd/app/views/devise/registrations/new.html.erb",
+		"/Users/hugocbp/Code/caseipassei-bdd/app/controllers/user/registrations_controller.rb",
+		"/Users/hugocbp/Code/caseipassei-bdd/db/migrate/20150411204435_add_name_username_role_to_users.rb",
+		"/Users/hugocbp/Code/caseipassei-bdd/spec/models/user_spec.rb",
+		"/Users/hugocbp/Code/caseipassei-bdd/app/models/user.rb",
+		"/Users/hugocbp/Code/caseipassei-rails/spec/factories/users.rb",
+		"/Users/hugocbp/Code/caseipassei-rails/app/models/user.rb",
+		"/Users/hugocbp/Code/caseipassei-rails/spec/models/user_spec.rb",
+		"/Users/hugocbp/Code/caseipassei-bdd/spec/rails_helper.rb",
+		"/Users/hugocbp/Code/caseipassei-bdd/.rspec",
+		"/Users/hugocbp/Code/caseipassei-bdd/Guardfile"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 124.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"<%= ",
+			"image_changed?",
+			"author",
+			"Author",
+			"author",
+			"Author",
+			"author",
+			"Author",
+			"author",
+			"Fabricate",
+			"peding_approval",
+			"be_valid",
+			"rDivrCcquplf",
+			"method",
+			"%>"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 33.0
+	},
+	"input":
+	{
+		"height": 42.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 140.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "blocipedia.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"rou",
+				"config/routes.rb"
+			],
+			[
+				"head",
+				"app/views/layouts/_header.html.erb"
+			],
+			[
+				"laapp",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"r",
+				"config/routes.rb"
+			],
+			[
+				"top",
+				"bloccit/app/models/topic.rb"
+			],
+			[
+				"topsp",
+				"bloccit/spec/models/topic_spec.rb"
+			],
+			[
+				"appcon",
+				"app/controllers/application_controller.rb"
+			],
+			[
+				"applrb",
+				"config/application.rb"
+			],
+			[
+				"aplcon",
+				"app/controllers/application_controller.rb"
+			],
+			[
+				"appht",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"aplht",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"app",
+				"config/application.rb"
+			],
+			[
+				"pages",
+				"app/controllers/pages_controller.rb"
+			],
+			[
+				"home",
+				"app/views/pages/home.html.erb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "te",
+		"selected_items":
+		[
+			[
+				"te",
+				"~/Dropbox/Apps/Sublime Text/test-driven-rails.sublime-project"
+			],
+			[
+				"kn",
+				"~/Dropbox/Apps/Sublime Text/knownhosts.sublime-project"
+			],
+			[
+				"bl",
+				"~/code/bloccit/bloccit.sublime-project"
+			],
+			[
+				"ssh",
+				"~/Dropbox/Apps/Sublime Text/knownhosts.sublime-project"
+			],
+			[
+				"flix",
+				"~/Dropbox/Apps/Sublime Text/flix.sublime-project"
+			],
+			[
+				"fli",
+				"~/Dropbox/Apps/Sublime Text/flix.sublime-project"
+			],
+			[
+				"pra",
+				"~/Dropbox/Apps/Sublime Text/pragmatic-rails-I.sublime-project"
+			],
+			[
+				"case",
+				"~/Dropbox/Apps/Sublime Text 3/caseipassei-rails.sublime-project"
+			],
+			[
+				"",
+				"~/Dropbox/Apps/Sublime Text/flix.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 239.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
