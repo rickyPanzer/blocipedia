@@ -23,7 +23,7 @@ class ApplicationPolicy
   end
 
   def update?
-    user.role == admin || record.user == user
+    create?
   end
 
   def edit?

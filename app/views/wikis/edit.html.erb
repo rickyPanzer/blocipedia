@@ -1,1 +1,5 @@
-<%= render 'form' %>
+<%= simple_form_for [@user, @wiki], url: user_wiki_path do |f| %>
+  <%= f.input :title %>
+  <%= f.input :body %>
+  <%= f.submit class: "btn btn-success"  %>
+<% end %>

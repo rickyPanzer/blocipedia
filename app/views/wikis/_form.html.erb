@@ -1,5 +1,5 @@
-<%= simple_form_for @wiki do |f| %>
+<%= simple_form_for [@user, @wiki], url: user_wiki_path do |f| %>
   <%= f.input :title %>
   <%= f.input :body %>
-  <%= f.submit "Save", class: "btn btn-success" %>
+  <%= f.submit class: "btn btn-success"  %>
 <% end %>

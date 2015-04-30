@@ -34,6 +34,10 @@ class User < ActiveRecord::Base
 
 
   def init
-    self.role = "standard"
+    self.role ||= "standard"
+  end
+
+  def admin?
+    self.role == "admin"
   end
 end
