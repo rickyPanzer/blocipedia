@@ -8,7 +8,6 @@ class WikisController < ApplicationController
   end
 
   def show
-    @user = current_user
     @wiki = Wiki.find(params[:id])
     authorize @wiki
   end

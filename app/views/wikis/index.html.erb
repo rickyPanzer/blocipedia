@@ -1,6 +1,6 @@
 <h1>All Wikis</h1>
 <% @wikis.each do |wiki| %>
-  <p><%= link_to wiki.title, wiki %></p>
+  <p><%= link_to wiki.title, wiki_path(wiki) %></p>
 <% end %>
 <% if current_user %>
   <%= link_to "New Wiki", new_user_wiki_path(current_user), class: "btn btn-success" %>
