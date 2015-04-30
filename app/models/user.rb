@@ -40,4 +40,14 @@ class User < ActiveRecord::Base
   def admin?
     self.role == "admin"
   end
+
+  def upgrade_account(user)
+    user.role = "premium"
+    user.save
+  end
+
+  def downgrade_account(user)
+    user.role = "standard"
+    user.save
+  end
 end

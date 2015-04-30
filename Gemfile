@@ -15,6 +15,8 @@ gem 'bootstrap-sass'
 gem 'simple_form'
 gem 'annotate'
 gem 'pundit'
+gem 'stripe'
+gem 'figaro'
 
 group :development, :test do
   gem 'byebug'
