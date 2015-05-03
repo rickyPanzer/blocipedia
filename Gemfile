@@ -17,6 +17,7 @@ gem 'annotate'
 gem 'pundit'
 gem 'stripe'
 gem 'figaro'
+gem 'redcarpet'
 
 group :development, :test do
   gem 'byebug'
