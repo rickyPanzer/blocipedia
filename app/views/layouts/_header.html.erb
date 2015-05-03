@@ -15,6 +15,9 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li><%= link_to "Wikis", wikis_path %></li>
+        <% if current_user %>
+          <li><%= link_to "New Wiki", new_user_wiki_path(current_user) %></li>
+        <% end %>
       </ul>
 
       <ul class="nav navbar-nav navbar-right">

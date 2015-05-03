@@ -1,7 +1,11 @@
 <h1>All Wikis</h1>
-<% @wikis.each do |wiki| %>
-  <p><%= link_to wiki.title, wiki_path(wiki) %></p>
-<% end %>
-<% if current_user %>
-  <%= link_to "New Wiki", new_user_wiki_path(current_user), class: "btn btn-success" %>
+
+<% if current_user.nil? || !current_user.premium? %>
+  <% @public_wikis.each do |wiki| %>
+    <p><%= link_to wiki.title, wiki_path(wiki) %></p>
+  <% end %>
+<% elsif current_user.admin? || current_user.premium? %>
+  <% @wikis.each do |wiki| %>
+    <p><%= link_to wiki.title, wiki_path(wiki) %></p>
+  <% end %>
 <% end %>

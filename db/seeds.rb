@@ -15,6 +15,7 @@
     wiki = Wiki.new
     wiki.title = Faker::Lorem.sentence(1)
     wiki.body = Faker::Lorem.paragraph(1)
+    wiki.private = false
     wiki.user_id = user.id
     wiki.save!
   end

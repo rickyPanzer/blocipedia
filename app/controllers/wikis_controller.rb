@@ -3,6 +3,7 @@ class WikisController < ApplicationController
   after_action :verify_authorized
 
   def index
+    @public_wikis = Wiki.where(private: false)
     @wikis = Wiki.all
     authorize Wiki
   end
@@ -33,6 +34,7 @@ class WikisController < ApplicationController
   end
 
   def edit
+    @user = User.find params[:user_id]
     @wiki = Wiki.find(params[:id])
     authorize @wiki
   end
@@ -64,7 +66,7 @@ class WikisController < ApplicationController
 private
 
   def wiki_params
-    params.require(:wiki).permit(:title, :body, :user_id)
+    params.require(:wiki).permit(:title, :body, :user_id, :private)
   end
 
 

@@ -31,7 +31,7 @@ class User < ActiveRecord::Base
          :recoverable, :rememberable, :trackable, :validatable
 
   after_initialize :init
-
+  has_many :wikis
 
   def init
     self.role ||= "standard"
@@ -41,6 +41,10 @@ class User < ActiveRecord::Base
     self.role == "admin"
   end
 
+  def premium?
+    self.role == "premium"
+  end
+
   def upgrade_account(user)
     user.role = "premium"
     user.save
@@ -48,6 +52,14 @@ class User < ActiveRecord::Base
 
   def downgrade_account(user)
     user.role = "standard"
+    downgrade_private_wikis(user)
     user.save
+  end
+
+  def downgrade_private_wikis(user)
+    wikis = Wiki.where(user: user, private: true)
+    wikis.each do |wiki|
+      wiki.private = false
+    end
   end
 end
