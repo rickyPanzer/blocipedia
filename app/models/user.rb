@@ -32,6 +32,8 @@ class User < ActiveRecord::Base
 
   after_initialize :init
   has_many :wikis
+  has_many :collaborators
+  has_many :wikis, through: :collaborators
 
   def init
     self.role ||= "standard"
@@ -60,6 +62,7 @@ class User < ActiveRecord::Base
     wikis = Wiki.where(user: user, private: true)
     wikis.each do |wiki|
       wiki.private = false
+      wiki.save!
     end
   end
 end

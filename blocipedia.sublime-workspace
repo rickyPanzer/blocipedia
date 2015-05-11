@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"if",
+				"if	if … end"
+			],
+			[
+				"attr",
+				"attrr	Ruby attr_reader"
+			],
+			[
 				"wiki",
 				"wiki_params"
 			],
@@ -48,10 +56,6 @@
 				"attributes_for(:user"
 			],
 			[
-				"attr",
-				"attributes_for(:user"
-			],
-			[
 				"attribu",
 				"attributes_for"
 			],
@@ -84,10 +88,6 @@
 				"filepath"
 			],
 			[
-				"if",
-				"ife	if … else … end"
-			],
-			[
 				"bir",
 				"birthday〔variable〕"
 			],
@@ -104,42 +104,26 @@
 	"buffers":
 	[
 		{
+			"file": "app/views/wikis/edit.html.erb",
+			"settings":
+			{
+				"buffer_size": 366,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "app/controllers/wikis_controller.rb",
 			"settings":
 			{
-				"buffer_size": 1529,
+				"buffer_size": 1545,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/views/users/show.html.erb",
+			"file": "app/policies/wiki_policy.rb",
 			"settings":
 			{
-				"buffer_size": 416,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Gemfile",
-			"settings":
-			{
-				"buffer_size": 480,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/helpers/application_helper.rb",
-			"settings":
-			{
-				"buffer_size": 261,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/wikis/show.html.erb",
-			"settings":
-			{
-				"buffer_size": 367,
+				"buffer_size": 909,
 				"line_ending": "Unix"
 			}
 		}
@@ -227,29 +211,32 @@
 		"/Users/hugocbp/Code/rails_apps/blocipedia",
 		"/Users/hugocbp/Code/rails_apps/blocipedia/app",
 		"/Users/hugocbp/Code/rails_apps/blocipedia/app/controllers",
+		"/Users/hugocbp/Code/rails_apps/blocipedia/app/models",
+		"/Users/hugocbp/Code/rails_apps/blocipedia/app/policies",
 		"/Users/hugocbp/Code/rails_apps/blocipedia/app/views",
 		"/Users/hugocbp/Code/rails_apps/blocipedia/app/views/wikis"
 	],
 	"file_history":
 	[
+		"/Users/hugocbp/Code/rails_apps/blocipedia/app/controllers/wikis_controller.rb",
+		"/Users/hugocbp/Code/rails_apps/blocipedia/app/views/wikis/_form.html.erb",
+		"/Users/hugocbp/Code/rails_apps/blocipedia/app/views/wikis/index.html.erb",
+		"/Users/hugocbp/Code/rails_apps/blocipedia/db/seeds.rb",
+		"/Users/hugocbp/Code/rails_apps/blocipedia/app/views/wikis/new.html.erb",
+		"/Users/hugocbp/Code/rails_apps/blocipedia/app/models/user.rb",
+		"/Users/hugocbp/Code/rails_apps/blocipedia/app/models/wiki.rb",
+		"/Users/hugocbp/Code/rails_apps/blocipedia/app/policies/wiki_policy.rb",
+		"/Users/hugocbp/Code/rails_apps/blocipedia/app/views/users/show.html.erb",
+		"/Users/hugocbp/Code/rails_apps/blocipedia/Gemfile",
+		"/Users/hugocbp/Code/rails_apps/blocipedia/app/helpers/application_helper.rb",
+		"/Users/hugocbp/Code/rails_apps/blocipedia/app/views/wikis/show.html.erb",
 		"/Users/hugocbp/Code/rails_apps/blocipedia/config/routes.rb",
 		"/Users/hugocbp/Code/rails_apps/blocipedia/app/controllers/users_controller.rb",
-		"/Users/hugocbp/Code/rails_apps/blocipedia/app/views/wikis/new.html.erb",
 		"/Users/hugocbp/Code/rails_apps/capstone-rails/config/routes.rb",
-		"/Users/hugocbp/Code/rails_apps/blocipedia/app/views/wikis/show.html.erb",
-		"/Users/hugocbp/Code/rails_apps/blocipedia/app/views/users/show.html.erb",
-		"/Users/hugocbp/Code/rails_apps/blocipedia/app/models/user.rb",
 		"/Users/hugocbp/Code/rails_apps/blocipedia/app/controllers/charges_controller.rb",
 		"/Users/hugocbp/Code/rails_apps/blocipedia/app/views/layouts/_header.html.erb",
-		"/Users/hugocbp/Code/rails_apps/blocipedia/app/views/wikis/index.html.erb",
-		"/Users/hugocbp/Code/rails_apps/blocipedia/app/controllers/wikis_controller.rb",
-		"/Users/hugocbp/Code/rails_apps/blocipedia/app/models/wiki.rb",
-		"/Users/hugocbp/Code/rails_apps/blocipedia/db/seeds.rb",
 		"/Users/hugocbp/Code/rails_apps/blocipedia/app/views/wikis/edit.html.erb",
-		"/Users/hugocbp/Code/rails_apps/blocipedia/app/views/wikis/_form.html.erb",
 		"/Users/hugocbp/Code/rails_apps/blocipedia/app/policies/application_policy.rb",
-		"/Users/hugocbp/Code/rails_apps/blocipedia/app/policies/wiki_policy.rb",
-		"/Users/hugocbp/Code/rails_apps/blocipedia/Gemfile",
 		"/Users/hugocbp/Code/rails_apps/blocipedia/config/initializers/stripe.rb",
 		"/Users/hugocbp/Code/rails_apps/blocipedia/config/secrets.yml",
 		"/Users/hugocbp/Code/rails_apps/blocipedia/config/application.yml",
@@ -358,8 +345,7 @@
 		"/Users/hugocbp/Code/caseipassei-tdd/spec/rails_helper.rb",
 		"/Users/hugocbp/Code/caseipassei-tdd/config/environments/development.rb",
 		"/Users/hugocbp/Code/caseipassei-tdd/config/environments/test.rb",
-		"/Users/hugocbp/Code/caseipassei-tdd/config/routes.rb",
-		"/Users/hugocbp/Code/caseipassei-tdd/app/views/layouts/application.html.erb"
+		"/Users/hugocbp/Code/caseipassei-tdd/config/routes.rb"
 	],
 	"find":
 	{
@@ -413,29 +399,30 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/controllers/wikis_controller.rb",
+					"file": "app/views/wikis/edit.html.erb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1529,
+						"buffer_size": 366,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								549,
-								549
+								366,
+								366
 							]
 						],
 						"settings":
 						{
 							"BracketHighlighterBusy": false,
+							"auto_complete": false,
 							"bh_regions":
 							[
 								"bh_round",
@@ -494,7 +481,99 @@
 								"bh_tag_close",
 								"bh_tag_content"
 							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/peacock (SL).tmTheme",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Peacock (SL).tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/controllers/wikis_controller.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1545,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								119,
+								119
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_complete": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Peacock (SL).tmTheme",
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
@@ -506,375 +585,100 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "app/views/users/show.html.erb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 416,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								416,
-								416
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"auto_complete": false,
-							"bh_regions":
-							[
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content"
-							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/Peacock (SL).tmTheme",
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "Gemfile",
-					"semi_transient": false,
+					"file": "app/policies/wiki_policy.rb",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 480,
+						"buffer_size": 909,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								369,
-								369
+								0,
+								0
 							]
 						],
 						"settings":
 						{
 							"BracketHighlighterBusy": false,
-							"auto_complete": false,
 							"bh_regions":
 							[
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
 								"bh_curly_close",
 								"bh_curly_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content"
-							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/Peacock (SL).tmTheme",
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "app/helpers/application_helper.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 261,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								261,
-								261
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"auto_complete": false,
-							"bh_regions":
-							[
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
 								"bh_angle_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
-								"bh_tag_content"
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
 							],
 							"color_scheme": "Packages/User/Color Highlighter/themes/Peacock (SL).tmTheme",
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "app/views/wikis/show.html.erb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 367,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								69,
-								69
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"auto_complete": false,
-							"bh_regions":
-							[
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content"
-							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/Peacock (SL).tmTheme",
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -936,6 +740,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"see",
+				"db/seeds.rb"
+			],
 			[
 				"ro",
 				"blocipedia/config/routes.rb"
@@ -1010,9 +818,13 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "land",
+		"last_filter": "bloitof",
 		"selected_items":
 		[
+			[
+				"bloitof",
+				"~/Code/rails_apps/blocitoff/blocitoff.sublime-project"
+			],
 			[
 				"land",
 				"~/Dropbox/Apps/Sublime Text/casei-landing.sublime-project"

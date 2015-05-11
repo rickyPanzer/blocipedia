@@ -1,11 +1,5 @@
 <h1>All Wikis</h1>
-
-<% if current_user.nil? || !current_user.premium? %>
-  <% @public_wikis.each do |wiki| %>
-    <p><%= link_to wiki.title, wiki_path(wiki) %></p>
-  <% end %>
-<% elsif current_user.admin? || current_user.premium? %>
-  <% @wikis.each do |wiki| %>
-    <p><%= link_to wiki.title, wiki_path(wiki) %></p>
-  <% end %>
+<% @wikis.each do |wiki| %>
+  <p><%= link_to wiki.title, wiki_path(wiki) %></p>
+  <p><%= wiki.body %></p>
 <% end %>
