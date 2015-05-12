@@ -19,11 +19,20 @@ class WikisController < ApplicationController
 
   def create
     @user = User.find(params[:user_id])
+    collabs = params[:wiki][:collaborators]
+    puts "collabs #{collabs}"
     puts "Wiki params #{wiki_params}"
     @wiki = Wiki.new(wiki_params)
+    
     @wiki.user = @user
     authorize @wiki
     if @wiki.save
+
+      collabs.each do |c|
+        puts "user id of collab #{c}"
+        @wiki.collaborators.create(user_id:c)
+      end
+
       flash[:notice] = "Wiki was saved"
       redirect_to @wiki
     else
@@ -65,7 +74,7 @@ class WikisController < ApplicationController
 private
 
   def wiki_params
-    params.require(:wiki).permit(:title, :body, :user_id, :private, collaborators_attributes: [:user_id])
+    params.require(:wiki).permit(:title, :body, :user_id, :private, :collaborators)
   end
 
 

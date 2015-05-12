@@ -2,11 +2,10 @@
   <%= f.input :title %>
   <%= f.input :body %>
   <% if current_user.role == "admin" || current_user.role == "premium" %>
-    <%= f.input :private %>
-    <%= f.fields_for :collaborators do |collaborators_form| %>
-        <%= collaborators_form.input :collaborators, collection: @collaborators, as: :check_boxes  %>
-    <% end %>
     
+    <%= f.input :private %>
+
+    <%= f.input :collaborators, collection: @collaborators, as: :check_boxes  %>
     
   <% end %>
   <%= f.submit class: "btn btn-success"  %>
